@@ -1,0 +1,59 @@
+# Python & Poetry
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Poetry virtual environment
+.venv/
+.env/
+.envrc
+
+# Jupyter Notebook checkpoints & output
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+*/.ipynb_checkpoints/
+
+# Data & cache
+*.sqlite3
+*.db
+*.log
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.h5
+*.hdf5
+*.bak
+*.tmp
+.DS_Store
+
+# VSCode settings & workspace
+.vscode/
+*.code-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Notebooks auto-generated HTML/plots/screenshots
+screenshots/
+iframe_figures/
+
+# Test cache
+pytest_cache/
+tests/__pycache__/
+tests/.pytest_cache/
+
+# Project-specific
+apple.json
+
+# Poetry lock (do *not* ignore poetry.lock if you want reproducible builds!)
+# poetry.lock
+
+
