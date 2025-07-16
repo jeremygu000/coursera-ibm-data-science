@@ -22,8 +22,6 @@ build/
 *.sqlite3
 *.db
 *.log
-*.csv
-*.tsv
 *.xls
 *.xlsx
 *.parquet
