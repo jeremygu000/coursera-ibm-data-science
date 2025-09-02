@@ -27,6 +27,7 @@ dependencies = [
     "hdbscan>=0.8.40",
     "geopandas>=1.1.1",
     "contextily>=1.6.2",
+    "wget>=3.2",
 ]
 
 [tool.hatch.build.targets.sdist]
